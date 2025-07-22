@@ -5,6 +5,7 @@ export default function ExcuseGenerator() {
   const [isLoading, setIsLoading] = useState(false);
 
   const [moveRight, setMoveRight] = useState(true);
+  const [category, setCategory] = useState("school");
 
   useEffect(() => {
     if (!isLoading) return;
@@ -22,12 +23,9 @@ export default function ExcuseGenerator() {
 
     try {
       await new Promise((resolve) => setTimeout(resolve, 2000));
-
-      const res = await fetch("/api/excuse/random");
+      const res = await fetch(`/api/excuse/${category}`);
       const data = await res.json();
-
-      //TODO: Fix the API response
-      setExcuse(data.excuse); // API should return { text: "Your excuse here" } and it is not doing that
+      setExcuse(data.excuse);
     } catch {
       setExcuse("Oops! Failed to fetch an excuse.");
     } finally {
@@ -57,7 +55,15 @@ export default function ExcuseGenerator() {
         }}
       >
         <h1>Random Excuse</h1>
-
+        <select
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          style={{ marginBottom: 20, padding: 5, fontSize: 16 }}
+        >
+          <option value="school">School</option>
+          <option value="work">Work</option>
+          <option value="girlfriend">Girlfriend</option>
+        </select>
         {isLoading && (
           <p
             style={{

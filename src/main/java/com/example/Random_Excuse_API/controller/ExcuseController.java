@@ -4,6 +4,7 @@ import com.example.Random_Excuse_API.model.Excuse;
 import com.example.Random_Excuse_API.service.ExcuseService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,9 +18,9 @@ public class ExcuseController {
         this.excuseService = excuseService;
     }
 
-    @GetMapping("/random")
-    public ResponseEntity<Excuse> getRandomExcuse() {
-        return ResponseEntity.ok(excuseService.getRandomExcuse());
+    @GetMapping("/{category}")
+    public ResponseEntity<Excuse> getExcuseByCategory(@PathVariable String category) {
+        return ResponseEntity.ok(excuseService.getExcuse(category));
     }
 }
 

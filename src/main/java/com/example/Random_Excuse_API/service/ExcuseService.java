@@ -17,10 +17,10 @@ public class ExcuseService {
         this.excuseRepository = excuseRepository;
     }
 
-    public Excuse getRandomExcuse() {
-        List<Excuse> excuses = excuseRepository.findAll();
+    public Excuse getExcuse(String excuseCategory) {
+        List<Excuse> excuses = excuseRepository.findByCategory(excuseCategory);
         if (excuses.isEmpty()) {
-            return new Excuse("No excuses available.", "General");
+            return new Excuse("No excuses available.", excuseCategory);
         }
         return excuses.get(random.nextInt(excuses.size()));
     }

@@ -1,0 +1,315 @@
+2025-07-23 00:47:15.108530+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "EXCUSES" nie istnieje
+Table "EXCUSES" not found; SQL statement:
+select * from excuses [42102-232]
+2025-07-23 00:49:28.246089+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\'s llama blocked my driveway.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.') [42000-232]
+2025-07-23 00:50:38.020960+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\'s llama blocked my driveway.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.') [42000-232]
+2025-07-23 00:50:39.058426+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\'s llama blocked my driveway.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.') [42000-232]
+2025-07-23 00:50:39.473902+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\'s llama blocked my driveway.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.') [42000-232]
+2025-07-23 00:50:39.724197+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\'s llama blocked my driveway.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.') [42000-232]
+2025-07-23 00:50:39.902597+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\\'s llama blocked my driveway.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn[*]\\'t match, so I couldn\\'t concentrate.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My neighbor\'s llama blocked my driveway.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I got stuck in a revolving door.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My keyboard only typed emojis today.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was challenged to a staring contest by my cat and lost track of time.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My coffee mug union went on strike.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was abducted by garden gnomes.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I had to chase a runaway balloon for three hours.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My shadow refused to follow me to work.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was busy counting the pixels on my screen.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.') [42000-232]
+2025-07-23 00:51:19.125437+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.') [42000-232]
+2025-07-23 00:51:19.127378+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.'); [42000-232]
+2025-07-23 00:51:19.974699+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.') [42000-232]
+2025-07-23 00:51:19.976547+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.'); [42000-232]
+2025-07-23 00:51:20.240803+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.') [42000-232]
+2025-07-23 00:51:20.242268+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.'); [42000-232]
+2025-07-23 00:51:20.453831+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.') [42000-232]
+2025-07-23 00:51:20.455584+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.'); [42000-232]
+2025-07-23 00:51:20.634193+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.') [42000-232]
+2025-07-23 00:51:20.635840+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.'); [42000-232]
+2025-07-23 00:51:20.800690+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.') [42000-232]
+2025-07-23 00:51:20.802394+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.'); [42000-232]
+2025-07-23 00:51:20.983523+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.') [42000-232]
+2025-07-23 00:51:20.985254+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.'); [42000-232]
+2025-07-23 00:51:34.205505+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "[*]selest * from excuse"; oczekiwano "SAVEPOINT, SCRIPT, SHUTDOWN"
+Syntax error in SQL statement "[*]selest * from excuse"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+selest * from excuse [42001-232]
+2025-07-23 00:52:37.160659+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "[*]ELETE FROM excuse"; oczekiwano "EXPLAIN, EXECUTE"
+Syntax error in SQL statement "[*]ELETE FROM excuse"; expected "EXPLAIN, EXECUTE"; SQL statement:
+ELETE FROM excuse [42001-232]
+2025-07-23 00:52:44.606211+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE 0==0"
+Syntax error in SQL statement "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE 0==0"; SQL statement:
+select * from excuse
+
+ELETE FROM excuse WHERE 0==0 [42000-232]
+2025-07-23 00:52:50.399692+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE 0=0"
+Syntax error in SQL statement "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE 0=0"; SQL statement:
+select * from excuse
+
+ELETE FROM excuse WHERE 0=0 [42000-232]
+2025-07-23 00:53:07.238262+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE category = 'work'"
+Syntax error in SQL statement "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE category = 'work'"; SQL statement:
+select * from excuse
+
+ELETE FROM excuse WHERE category = 'work' [42000-232]
+2025-07-23 00:53:17.319285+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE category = 'work'"
+Syntax error in SQL statement "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE category = 'work'"; SQL statement:
+select * from excuse
+
+ELETE FROM excuse WHERE category = 'work' [42000-232]
+2025-07-23 00:53:18.453095+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE category = 'work'"
+Syntax error in SQL statement "select * from excuse\000d\000a\000d\000aELETE [*]FROM excuse WHERE category = 'work'"; SQL statement:
+select * from excuse
+
+ELETE FROM excuse WHERE category = 'work' [42000-232]
+2025-07-23 00:53:34.920540+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Kolumna "work" nie istnieje
+Column "work" not found; SQL statement:
+DELETE FROM excuse WHERE category = "work" [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:148)
+	at org.h2.expression.Expression.optimizeCondition(Expression.java:148)
+	at org.h2.command.dml.Delete.doPrepare(Delete.java:110)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1344)
+	at org.h2.server.web.WebApp.query(WebApp.java:1142)
+	at org.h2.server.web.WebApp.query(WebApp.java:1118)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2025-07-23 00:54:24.634074+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\\'t match, so I couldn[*]\\'t concentrate.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My socks didn\'t match, so I couldn\'t concentrate.') [42000-232]
+2025-07-23 00:54:24.636429+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\\'t catch it.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('work', 'My chair rolled away and I couldn\'t catch it.');
+INSERT INTO excuse (category, excuse) VALUES ('work', 'I was stuck in a loop of making excuses.'); [42000-232]
+2025-07-23 01:13:30.152694+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My phone was abducted by aliens, that\\'s why I didn[*]\\'t text back.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My phone was abducted by aliens, that\\'s why I didn[*]\\'t text back.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My phone was abducted by aliens, that\'s why I didn\'t text back.') [42000-232]
+2025-07-23 01:13:30.163225+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My socks were too tight, I couldn\\'t think straight.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was busy teaching my goldfish to swim backwards.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'A squirrel challenged me to a staring contest and I lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My pizza delivery guy needed relationship advice.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I got stuck in a revolving door thinking about you.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My left shoe went missing, so I couldn[*]\\'t leave the house.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My socks were too tight, I couldn\\'t think straight.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was busy teaching my goldfish to swim backwards.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'A squirrel challenged me to a staring contest and I lost track of time.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My pizza delivery guy needed relationship advice.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I got stuck in a revolving door thinking about you.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My left shoe went missing, so I couldn[*]\\'t leave the house.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My socks were too tight, I couldn\'t think straight.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was busy teaching my goldfish to swim backwards.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'A squirrel challenged me to a staring contest and I lost track of time.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My pizza delivery guy needed relationship advice.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I got stuck in a revolving door thinking about you.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My left shoe went missing, so I couldn\'t leave the house.') [42000-232]
+2025-07-23 01:13:30.166080+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My internet went on a date with my neighbor\\'s WiFi.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was busy writing a song about how awesome you are.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My dog ate my sense of direction.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was stuck in a loop of thinking about you.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My shadow refused to follow me to your place.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was abducted by garden gnomes on my way to see you.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My coffee mug union went on strike, so I couldn[*]\\'t wake up.')"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My internet went on a date with my neighbor\\'s WiFi.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was busy writing a song about how awesome you are.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My dog ate my sense of direction.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was stuck in a loop of thinking about you.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My shadow refused to follow me to your place.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was abducted by garden gnomes on my way to see you.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My coffee mug union went on strike, so I couldn[*]\\'t wake up.')"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My internet went on a date with my neighbor\'s WiFi.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was busy writing a song about how awesome you are.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My dog ate my sense of direction.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was stuck in a loop of thinking about you.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My shadow refused to follow me to your place.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was abducted by garden gnomes on my way to see you.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My coffee mug union went on strike, so I couldn\'t wake up.') [42000-232]
+2025-07-23 01:14:00.035972+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My left shoe went missing, so I couldn/'t leave the house.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My left shoe went missing, so I couldn/'t leave the house.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My left shoe went missing, so I couldn/'t leave the house.'); [42000-232]
+2025-07-23 01:14:15.494066+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My internet went on a date with my neighbor\\'s WiFi.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was busy writing a song about how awesome you are.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My dog ate my sense of direction.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was stuck in a loop of thinking about you.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My shadow refused to follow me to your place.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was abducted by garden gnomes on my way to see you.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My internet went on a date with my neighbor\\'s WiFi.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was busy writing a song about how awesome you are.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My dog ate my sense of direction.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was stuck in a loop of thinking about you.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My shadow refused to follow me to your place.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was abducted by garden gnomes on my way to see you.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My internet went on a date with my neighbor\'s WiFi.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was busy writing a song about how awesome you are.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My dog ate my sense of direction.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was stuck in a loop of thinking about you.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'My shadow refused to follow me to your place.');
+INSERT INTO excuse (category, excuse) VALUES ('girlfriend', 'I was abducted by garden gnomes on my way to see you.'); [42000-232]
+2025-07-23 01:15:38.208501+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO excuse (category, excuse) VALUES ('school', 'My homework was eaten by my neighbor\\'s llama.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy teaching my calculator how to dance.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'Aliens borrowed my notebook for research.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My dog started a paper recycling business.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I thought the test was next year.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My pencil went on strike for better working conditions.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was stuck in a time loop and kept forgetting.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My backpack ran away with my homework.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy inventing a new math formula.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My alarm clock joined a rock band and overslept.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was practicing my handwriting in invisible ink.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My goldfish needed emotional support.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was searching for the lost city of Homework.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My computer got jealous and deleted my essay.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy counting the number of tiles in the classroom.[*]');"
+Syntax error in SQL statement "INSERT INTO excuse (category, excuse) VALUES ('school', 'My homework was eaten by my neighbor\\'s llama.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy teaching my calculator how to dance.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'Aliens borrowed my notebook for research.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My dog started a paper recycling business.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I thought the test was next year.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My pencil went on strike for better working conditions.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was stuck in a time loop and kept forgetting.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My backpack ran away with my homework.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy inventing a new math formula.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My alarm clock joined a rock band and overslept.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was practicing my handwriting in invisible ink.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My goldfish needed emotional support.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was searching for the lost city of Homework.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'My computer got jealous and deleted my essay.');\000d\000aINSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy counting the number of tiles in the classroom.[*]');"; SQL statement:
+INSERT INTO excuse (category, excuse) VALUES ('school', 'My homework was eaten by my neighbor\'s llama.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy teaching my calculator how to dance.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'Aliens borrowed my notebook for research.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'My dog started a paper recycling business.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'I thought the test was next year.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'My pencil went on strike for better working conditions.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'I was stuck in a time loop and kept forgetting.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'My backpack ran away with my homework.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy inventing a new math formula.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'My alarm clock joined a rock band and overslept.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'I was practicing my handwriting in invisible ink.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'My goldfish needed emotional support.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'I was searching for the lost city of Homework.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'My computer got jealous and deleted my essay.');
+INSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy counting the number of tiles in the classroom.'); [42000-232]
