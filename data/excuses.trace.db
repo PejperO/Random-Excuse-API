@@ -313,3 +313,7 @@ INSERT INTO excuse (category, excuse) VALUES ('school', 'My goldfish needed emot
 INSERT INTO excuse (category, excuse) VALUES ('school', 'I was searching for the lost city of Homework.');
 INSERT INTO excuse (category, excuse) VALUES ('school', 'My computer got jealous and deleted my essay.');
 INSERT INTO excuse (category, excuse) VALUES ('school', 'I was busy counting the number of tiles in the classroom.'); [42000-232]
+2025-07-23 01:39:14.862005+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "ECXUSE" nie istnieje
+Table "ECXUSE" not found; SQL statement:
+select * from ecxuse [42102-232]
