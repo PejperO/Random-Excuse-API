@@ -22,5 +22,10 @@ public class ExcuseController {
     public ResponseEntity<Excuse> getExcuseByCategory(@PathVariable String category) {
         return ResponseEntity.ok(excuseService.getExcuse(category));
     }
+
+    @GetMapping("/add")
+    public String addExcuse() {
+        return "TODO: Implement addExcuse method, for now it is a placeholder.";
+    }
 }
 

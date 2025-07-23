@@ -38,6 +38,7 @@ export default function ExcuseGenerator() {
       style={{
         minHeight: "100vh",
         display: "flex",
+        flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
         padding: 20,
@@ -93,6 +94,16 @@ export default function ExcuseGenerator() {
           {isLoading ? "Loading..." : "Generate"}
         </button>
       </div>
+      <button
+          style={{
+              marginTop: 10,
+              padding: "10px 20px",
+              cursor: isLoading ? "not-allowed" : "pointer",
+          }}
+        onClick={() => window.location.href = "http://localhost:8080/api/excuse/add"}
+      >
+        Add Excuse
+      </button>
     </div>
   );
 }
