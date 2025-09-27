@@ -5,6 +5,7 @@ import com.example.Random_Excuse_API.repository.ExcuseRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 
 @Service
@@ -15,6 +16,30 @@ public class ExcuseService {
 
     public ExcuseService(ExcuseRepository excuseRepository) {
         this.excuseRepository = excuseRepository;
+    }
+
+    public List<Excuse> getAll() {
+        return excuseRepository.findAll();
+    }
+
+    public Excuse create(Excuse excuse) {
+        return excuseRepository.save(excuse);
+    }
+
+    public Optional<Excuse> update(Long id, Excuse updated) {
+        return excuseRepository.findById(id).map(excuse -> {
+            excuse.setExcuse(updated.getExcuse());
+            excuse.setCategory(updated.getCategory());
+            return excuseRepository.save(excuse);
+        });
+    }
+
+    public boolean delete(Long id) {
+        if (excuseRepository.existsById(id)) {
+            excuseRepository.deleteById(id);
+            return true;
+        }
+        return false;
     }
 
     public Excuse getExcuse(String excuseCategory) {
